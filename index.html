@@ -1,436 +1,218 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Manisha Bhatta | Portfolio</title>
-
-    <link rel="stylesheet" href="portfolio.css">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Portfolio of Manisha Bhatta, BSc IT – Cloud Engineering student and web developer.">
+<title>Manisha Bhatta | Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
-
-    <!-- ================= NAVBAR ================= -->
-
-    <header>
-
-        <div class="logo">
-            <span>&lt;/&gt;</span> Portfolio
-        </div>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-    </header>
-
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero" id="home">
-
-        <div class="hero-text">
-
-            <p class="hello">Hello, I'm 👋</p>
-
-            <h1>Manisha <span>Bhatta</span></h1>
-
-            <h2>
-                <span class="typing">Web Developer</span>
-            </h2>
-
-            <p class="hero-description">
-                I am a BSc IT – Cloud Engineering student passionate about
-                web development, programming, UI design and data analysis.
-                I enjoy building useful and modern digital experiences.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#contact" class="btn">
-                    Contact Me <i class="fa-solid fa-paper-plane"></i>
-                </a>
-
-                <a href="#projects" class="btn secondary-btn">
-                    View Projects <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-            </div>
-
-            <div class="social-icons">
-
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-image">
-
-            <div class="circle-bg"></div>
-
-            <img src="1000007055.jpg" alt="Manisha Bhatta">
-
-            <div class="floating-card card-one">
-                <i class="fa-solid fa-code"></i>
-                Web Developer
-            </div>
-
-            <div class="floating-card card-two">
-                <i class="fa-solid fa-chart-column"></i>
-                Data Analysis
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-
-    <section id="about">
-
-        <h2 class="title">About <span>Me</span></h2>
-
-        <div class="about-container">
-
-            <div class="about-image">
-                <i class="fa-solid fa-laptop-code"></i>
-            </div>
-
-            <div class="about-content">
-
-                <h3>I'm a student who loves to build and learn.</h3>
-
-                <p>
-                    I am currently pursuing BSc IT – Cloud Engineering.
-                    I enjoy learning new technologies and turning ideas
-                    into practical projects.
-                </p>
-
-                <p>
-                    My current interests include Web Development,
-                    UI/UX Design and Data Analysis. I am continuously
-                    improving my programming and technical skills through
-                    projects and hands-on learning.
-                </p>
-
-                <div class="about-boxes">
-
-                    <div>
-                        <i class="fa-solid fa-lightbulb"></i>
-                        <span>Problem Solver</span>
-                    </div>
-
-                    <div>
-                        <i class="fa-solid fa-palette"></i>
-                        <span>Creative Thinker</span>
-                    </div>
-
-                    <div>
-                        <i class="fa-solid fa-rocket"></i>
-                        <span>Always Learning</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= SKILLS ================= -->
-
-    <section id="skills" class="skills-section">
-
-        <h2 class="title">My <span>Skills</span></h2>
-
-        <p class="section-subtitle">
-            Technologies and tools I am learning and working with.
-        </p>
-
-        <div class="cards">
-
-            <div class="card">
-                <i class="fa-brands fa-html5"></i>
-                <h3>HTML</h3>
-                <p>Web Structure</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-brands fa-css3-alt"></i>
-                <h3>CSS</h3>
-                <p>Web Styling</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-brands fa-js"></i>
-                <h3>JavaScript</h3>
-                <p>Web Development</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-brands fa-python"></i>
-                <h3>Python</h3>
-                <p>Programming & Data</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-brands fa-java"></i>
-                <h3>Java</h3>
-                <p>Programming</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-database"></i>
-                <h3>SQL</h3>
-                <p>Database</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-brands fa-github"></i>
-                <h3>Git & GitHub</h3>
-                <p>Version Control</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-chart-line"></i>
-                <h3>Data Analysis</h3>
-                <p>Data & Insights</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= PROJECTS ================= -->
-
-    <section id="projects">
-
-        <h2 class="title">My <span>Projects</span></h2>
-
-        <p class="section-subtitle">
-            Some of the projects I have worked on.
-        </p>
-
-        <div class="project-container">
-
-            <div class="project">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-mountain-sun"></i>
-                </div>
-
-                <h3>Travel Destination Website</h3>
-
-                <p>
-                    A responsive tourism website created using
-                    HTML, CSS and JavaScript to showcase travel
-                    destinations.
-                </p>
-
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <a href="#">
-                    View Project <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-            </div>
-
-
-            <div class="project">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-seedling"></i>
-                </div>
-
-                <h3>Mero Kishan App</h3>
-
-                <p>
-                    A smart agriculture platform designed to help
-                    farmers connect with customers and improve
-                    access to agricultural services.
-                </p>
-
-                <div class="tags">
-                    <span>React</span>
-                    <span>UI Design</span>
-                    <span>Web</span>
-                </div>
-
-                <a href="#">
-                    View Project <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-            </div>
-
-
-            <div class="project">
-
-                <div class="project-icon">
-                    <i class="fa-solid fa-laptop-code"></i>
-                </div>
-
-                <h3>Personal Portfolio</h3>
-
-                <p>
-                    A responsive personal portfolio website
-                    showcasing my skills, education and projects.
-                </p>
-
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <a href="#">
-                    View Project <i class="fa-solid fa-arrow-right"></i>
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= EDUCATION ================= -->
-
-    <section id="education" class="education-section">
-
-        <h2 class="title">My <span>Education</span></h2>
-
-        <div class="education-box">
-
-            <div class="education-icon">
-                <i class="fa-solid fa-graduation-cap"></i>
-            </div>
-
-            <div>
-
-                <h3>BSc IT – Cloud Engineering</h3>
-
-                <p>
-                    Currently pursuing undergraduate studies in
-                    Information Technology with a focus on
-                    Cloud Engineering.
-                </p>
-
-                <span class="education-status">
-                    Currently Studying
-                </span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= CONTACT ================= -->
-
-    <section id="contact" class="contact-section">
-
-        <h2 class="title">Contact <span>Me</span></h2>
-
-        <p class="section-subtitle">
-            Let's connect and build something interesting together.
-        </p>
-
-        <div class="contact-container">
-
-            <div class="contact-info">
-
-                <h3>Let's talk! 👋</h3>
-
-                <p>
-                    Feel free to contact me for projects,
-                    internships, collaborations or just to say hello.
-                </p>
-
-                <div class="contact-item">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>manishabhatta2008@gmail.com</span>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span>Kathmandu, Nepal</span>
-                </div>
-
-            </div>
-
-
-            <form>
-
-                <div class="input-row">
-
-                    <input type="text" placeholder="Your Name" required>
-
-                    <input type="email" placeholder="Your Email" required>
-
-                </div>
-
-                <textarea placeholder="Your Message" required></textarea>
-
-                <button type="submit">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                </button>
-
-            </form>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <p>
-            © 2026 Manisha Bhatta | All Rights Reserved
-        </p>
-
-    </footer>
-
-
-    <!-- Back to top -->
-
-    <a href="#home" class="top-btn">
-        <i class="fa-solid fa-arrow-up"></i>
-    </a>
-
+<div class="progress" id="progress"></div>
+
+<header id="header">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span>&lt;/&gt;</span> Portfolio</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="hello">Hello, I'm 👋</p>
+    <h1>Manisha <span>Bhatta</span></h1>
+    <h2><span id="typing"></span><span class="cursor">|</span></h2>
+    <p class="hero-description">I am a BSc IT – Cloud Engineering student passionate about web development, programming, UI design and data analysis. I enjoy building useful and modern digital experiences.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn">Contact Me <i class="fa-solid fa-paper-plane"></i></a>
+      <a href="#projects" class="btn secondary-btn">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="social-icons">
+      <a href="https://github.com/manisha834" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/manisha-bhatta-2a185636b" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:bhattamanisha845@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <div class="circle-bg"></div>
+    <img src="1000007055.jpg" alt="Manisha Bhatta" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <div class="avatar-fallback" style="display:none">MB</div>
+    <div class="floating-card card-one"><i class="fa-solid fa-code"></i> Web Developer</div>
+    <div class="floating-card card-two"><i class="fa-solid fa-chart-column"></i> Data Analysis</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About <span>Me</span></h2>
+  <div class="about-container">
+    <div class="about-image"><i class="fa-solid fa-laptop-code"></i></div>
+    <div class="about-content">
+      <h3>I'm a student who loves to build and learn.</h3>
+      <p>I am currently pursuing BSc IT – Cloud Engineering. I enjoy learning new technologies and turning ideas into practical projects.</p>
+      <p>My current interests include Web Development, UI/UX Design and Data Analysis. I keep improving my programming and technical skills through projects and hands-on learning.</p>
+      <div class="about-boxes">
+        <div><i class="fa-solid fa-lightbulb"></i><span>Problem Solver</span></div>
+        <div><i class="fa-solid fa-palette"></i><span>Creative Thinker</span></div>
+        <div><i class="fa-solid fa-rocket"></i><span>Always Learning</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="alt">
+  <h2 class="title">My <span>Skills</span></h2>
+  <p class="section-subtitle">Technologies and tools I am learning and working with.</p>
+  <div class="cards">
+    <div class="card"><i class="fa-brands fa-html5"></i><h3>HTML</h3><p>Web Structure</p></div>
+    <div class="card"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3><p>Web Styling</p></div>
+    <div class="card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Web Development</p></div>
+    <div class="card"><i class="fa-brands fa-python"></i><h3>Python</h3><p>Programming &amp; Data</p></div>
+    <div class="card"><i class="fa-brands fa-java"></i><h3>Java</h3><p>Programming</p></div>
+    <div class="card"><i class="fa-solid fa-database"></i><h3>SQL</h3><p>Database</p></div>
+    <div class="card"><i class="fa-brands fa-github"></i><h3>Git &amp; GitHub</h3><p>Version Control</p></div>
+    <div class="card"><i class="fa-solid fa-chart-line"></i><h3>Data Analysis</h3><p>Data &amp; Insights</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="title">My <span>Projects</span></h2>
+  <p class="section-subtitle">Some of the projects I have worked on.</p>
+  <div class="project-container">
+    <article class="project">
+      <div class="project-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+      <h3>Travel Destination Website</h3>
+      <p>A responsive tourism website created using HTML, CSS and JavaScript to showcase travel destinations.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+    </article>
+    <article class="project">
+      <div class="project-icon"><i class="fa-solid fa-seedling"></i></div>
+      <h3>Mero Kishan App</h3>
+      <p>A smart agriculture platform designed to help farmers connect with customers and improve access to agricultural services.</p>
+      <div class="tags"><span>React</span><span>UI Design</span><span>Web</span></div>
+      <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+    </article>
+    <article class="project">
+      <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+      <h3>Personal Portfolio</h3>
+      <p>A responsive personal portfolio website showcasing my skills, education and projects.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+    </article>
+  </div>
+</section>
+
+<section id="education" class="alt">
+  <h2 class="title">My <span>Education</span></h2>
+  <div class="education-box">
+    <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+    <div>
+      <h3>BSc IT – Cloud Engineering</h3>
+      <p>Currently pursuing undergraduate studies in Information Technology with a focus on Cloud Engineering.</p>
+      <span class="education-status">Currently Studying</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact <span>Me</span></h2>
+  <p class="section-subtitle">Let's connect and build something interesting together.</p>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Let's talk! 👋</h3>
+      <p>Feel free to contact me for projects, internships, collaborations or just to say hello.</p>
+      <div class="contact-item"><i class="fa-solid fa-envelope"></i><a href="mailto:manishabhatta2008@gmail.com">manishabhatta2008@gmail.com</a></div>
+      <div class="contact-item"><i class="fa-solid fa-location-dot"></i><span>Kathmandu, Nepal</span></div>
+    </div>
+    <form id="contactForm">
+      <div class="input-row">
+        <input type="text" name="name" placeholder="Your Name" aria-label="Your name" required>
+        <input type="email" name="email" placeholder="Your Email" aria-label="Your email" required>
+      </div>
+      <textarea name="message" placeholder="Your Message" aria-label="Your message" required></textarea>
+      <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year">2026</span> Manisha Bhatta | All Rights Reserved</p>
+</footer>
+
+<a href="#home" class="top-btn" id="topBtn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+<script>
+// Typing effect
+const roles = ["Web Developer", "UI Designer", "Data Analyst", "Cloud Engineering Student"];
+const typingEl = document.getElementById("typing");
+let r = 0, c = 0, deleting = false;
+function type() {
+  const word = roles[r];
+  typingEl.textContent = word.slice(0, c);
+  if (!deleting && c === word.length) { deleting = true; return setTimeout(type, 1400); }
+  if (deleting && c === 0) { deleting = false; r = (r + 1) % roles.length; }
+  c += deleting ? -1 : 1;
+  setTimeout(type, deleting ? 45 : 90);
+}
+if (matchMedia("(prefers-reduced-motion: reduce)").matches) typingEl.textContent = roles[0]; else type();
+
+// Mobile menu
+const nav = document.getElementById("nav"), menuBtn = document.getElementById("menuBtn");
+menuBtn.addEventListener("click", () => {
+  const open = nav.classList.toggle("open");
+  menuBtn.setAttribute("aria-expanded", open);
+});
+nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+  nav.classList.remove("open"); menuBtn.setAttribute("aria-expanded", "false");
+}));
+
+// Scroll: progress bar, header, back-to-top
+const progress = document.getElementById("progress"), header = document.getElementById("header"), topBtn = document.getElementById("topBtn");
+function onScroll() {
+  const max = document.documentElement.scrollHeight - innerHeight;
+  progress.style.width = (max > 0 ? scrollY / max * 100 : 0) + "%";
+  header.classList.toggle("scrolled", scrollY > 30);
+  topBtn.classList.toggle("show", scrollY > 500);
+}
+addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
+// Active nav link
+const links = [...nav.querySelectorAll("a")];
+const spy = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) links.forEach(l => l.classList.toggle("active", l.getAttribute("href") === "#" + e.target.id));
+  });
+}, { rootMargin: "-45% 0px -50% 0px" });
+document.querySelectorAll("main section").forEach(s => spy.observe(s));
+
+// Contact form: opens the visitor's email app with the message filled in
+document.getElementById("contactForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const body = `${f.get("message")}\n\nFrom: ${f.get("name")} (${f.get("email")})`;
+  location.href = `mailto:bhattamanisha845@gmail.com?subject=${encodeURIComponent("Portfolio message from " + f.get("name"))}&body=${encodeURIComponent(body)}`;
+  document.getElementById("formStatus").textContent = "Opening your email app to send the message.";
+  e.target.reset();
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
-
 </html>
-```
