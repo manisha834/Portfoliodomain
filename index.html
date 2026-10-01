@@ -1,147 +1,319 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Manisha Bhatta | Portfolio</title>
 
     <link rel="stylesheet" href="portfolio.css">
 
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= NAVBAR ================= -->
 
     <header>
 
-        <h2 class="logo">Portfolio</h2>
+        <div class="logo">
+            <span>&lt;/&gt;</span> Portfolio
+        </div>
 
         <nav>
-
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
-
         </nav>
 
     </header>
 
-    <!-- Hero -->
+
+    <!-- ================= HERO ================= -->
 
     <section class="hero" id="home">
 
         <div class="hero-text">
 
-            <h3>Hello, I'm</h3>
+            <p class="hello">Hello, I'm 👋</p>
 
-            <h1>Manisha Bhatta</h1>
+            <h1>Manisha <span>Bhatta</span></h1>
 
-            <h2>Computer Science Student</h2>
+            <h2>
+                <span class="typing">Web Developer</span>
+            </h2>
 
-            <p>
-                Passionate about Web Development, Programming,
-                UI Design and building modern websites.
+            <p class="hero-description">
+                I am a BSc IT – Cloud Engineering student passionate about
+                web development, programming, UI design and data analysis.
+                I enjoy building useful and modern digital experiences.
             </p>
 
-            <a href="#contact" class="btn">Contact Me</a>
+            <div class="hero-buttons">
+
+                <a href="#contact" class="btn">
+                    Contact Me <i class="fa-solid fa-paper-plane"></i>
+                </a>
+
+                <a href="#projects" class="btn secondary-btn">
+                    View Projects <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+            </div>
 
         </div>
+
 
         <div class="hero-image">
 
-            <img src="1000007055.jpg" alt="Profile">
+            <div class="circle-bg"></div>
+
+            <img src="1000007055.jpg" alt="Manisha Bhatta">
+
+            <div class="floating-card card-one">
+                <i class="fa-solid fa-code"></i>
+                Web Developer
+            </div>
+
+            <div class="floating-card card-two">
+                <i class="fa-solid fa-chart-column"></i>
+                Data Analysis
+            </div>
 
         </div>
 
     </section>
 
-    <!-- About -->
+
+    <!-- ================= ABOUT ================= -->
 
     <section id="about">
 
-        <h2 class="title">About Me</h2>
+        <h2 class="title">About <span>Me</span></h2>
 
-        <p class="about-text">
+        <div class="about-container">
 
-            I am currently studying Computer Science and enjoy
-            learning new technologies. I love designing websites,
-            solving programming problems and creating projects that
-            improve user experience.
+            <div class="about-image">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
 
-        </p>
+            <div class="about-content">
 
-    </section>
+                <h3>I'm a student who loves to build and learn.</h3>
 
-    <!-- Skills -->
+                <p>
+                    I am currently pursuing BSc IT – Cloud Engineering.
+                    I enjoy learning new technologies and turning ideas
+                    into practical projects.
+                </p>
 
-    <section id="skills">
+                <p>
+                    My current interests include Web Development,
+                    UI/UX Design and Data Analysis. I am continuously
+                    improving my programming and technical skills through
+                    projects and hands-on learning.
+                </p>
 
-        <h2 class="title">Skills</h2>
+                <div class="about-boxes">
 
-        <div class="cards">
+                    <div>
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span>Problem Solver</span>
+                    </div>
 
-            <div class="card">HTML</div>
+                    <div>
+                        <i class="fa-solid fa-palette"></i>
+                        <span>Creative Thinker</span>
+                    </div>
 
-            <div class="card">CSS</div>
+                    <div>
+                        <i class="fa-solid fa-rocket"></i>
+                        <span>Always Learning</span>
+                    </div>
 
-            <div class="card">JavaScript</div>
+                </div>
 
-            <div class="card">Python</div>
-
-            <div class="card">Java</div>
-
-            <div class="card">SQL</div>
-
-            <div class="card">Git & GitHub</div>
-
-            <div class="card">Responsive Design</div>
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Projects -->
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills-section">
+
+        <h2 class="title">My <span>Skills</span></h2>
+
+        <p class="section-subtitle">
+            Technologies and tools I am learning and working with.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Web Styling</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Programming & Data</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <p>Database</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-github"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>Data & Insights</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
 
     <section id="projects">
 
-        <h2 class="title">Projects</h2>
+        <h2 class="title">My <span>Projects</span></h2>
+
+        <p class="section-subtitle">
+            Some of the projects I have worked on.
+        </p>
 
         <div class="project-container">
 
             <div class="project">
 
+                <div class="project-icon">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                </div>
+
                 <h3>Travel Destination Website</h3>
 
                 <p>
-                    Responsive tourism website using HTML, CSS and JavaScript.
+                    A responsive tourism website created using
+                    HTML, CSS and JavaScript to showcase travel
+                    destinations.
                 </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#">
+                    View Project <i class="fa-solid fa-arrow-right"></i>
+                </a>
 
             </div>
 
+
             <div class="project">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
 
                 <h3>Mero Kishan App</h3>
 
                 <p>
-                    Smart agriculture platform helping farmers connect with customers.
+                    A smart agriculture platform designed to help
+                    farmers connect with customers and improve
+                    access to agricultural services.
                 </p>
 
+                <div class="tags">
+                    <span>React</span>
+                    <span>UI Design</span>
+                    <span>Web</span>
+                </div>
+
+                <a href="#">
+                    View Project <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
             </div>
+
 
             <div class="project">
 
-                <h3>Portfolio Website</h3>
+                <div class="project-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <h3>Personal Portfolio</h3>
 
                 <p>
-                    Personal responsive portfolio showcasing projects and skills.
+                    A responsive personal portfolio website
+                    showcasing my skills, education and projects.
                 </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="#">
+                    View Project <i class="fa-solid fa-arrow-right"></i>
+                </a>
 
             </div>
 
@@ -149,50 +321,116 @@
 
     </section>
 
-    <!-- Education -->
 
-    <section id="education">
+    <!-- ================= EDUCATION ================= -->
 
-        <h2 class="title">Education</h2>
+    <section id="education" class="education-section">
+
+        <h2 class="title">My <span>Education</span></h2>
 
         <div class="education-box">
 
-            <h3>BSc (Hons) Computer Science</h3>
+            <div class="education-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
 
-            <p>
-                Currently pursuing undergraduate studies in Computer Science.
-            </p>
+            <div>
+
+                <h3>BSc IT – Cloud Engineering</h3>
+
+                <p>
+                    Currently pursuing undergraduate studies in
+                    Information Technology with a focus on
+                    Cloud Engineering.
+                </p>
+
+                <span class="education-status">
+                    Currently Studying
+                </span>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Contact -->
 
-    <section id="contact">
+    <!-- ================= CONTACT ================= -->
 
-        <h2 class="title">Contact</h2>
+    <section id="contact" class="contact-section">
 
-        <form>
+        <h2 class="title">Contact <span>Me</span></h2>
 
-            <input type="text" placeholder="Your Name">
+        <p class="section-subtitle">
+            Let's connect and build something interesting together.
+        </p>
 
-            <input type="email" placeholder="Email">
+        <div class="contact-container">
 
-            <textarea placeholder="Message"></textarea>
+            <div class="contact-info">
 
-            <button>Send</button>
+                <h3>Let's talk! 👋</h3>
 
-        </form>
+                <p>
+                    Feel free to contact me for projects,
+                    internships, collaborations or just to say hello.
+                </p>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>manishabhatta2008@gmail.com</span>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Kathmandu, Nepal</span>
+                </div>
+
+            </div>
+
+
+            <form>
+
+                <div class="input-row">
+
+                    <input type="text" placeholder="Your Name" required>
+
+                    <input type="email" placeholder="Your Email" required>
+
+                </div>
+
+                <textarea placeholder="Your Message" required></textarea>
+
+                <button type="submit">
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </form>
+
+        </div>
 
     </section>
 
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
-        <p>© 2026 Manisha Bhatta | All Rights Reserved</p>
+        <p>
+            © 2026 Manisha Bhatta | All Rights Reserved
+        </p>
 
     </footer>
+
+
+    <!-- Back to top -->
+
+    <a href="#home" class="top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
 
 </body>
 
 </html>
+```
